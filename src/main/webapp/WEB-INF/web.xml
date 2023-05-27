@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+                                                        
+    <servlet>
+		<servlet-name>gameInsertServlet</servlet-name>
+		<servlet-class>games.gameInsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>gameInsertServlet</servlet-name>
+		<url-pattern>/insert</url-pattern>
+	</servlet-mapping>
+	
+    <servlet>
+		<servlet-name>readGameDataServlet</servlet-name>
+		<servlet-class>games.readGameDataServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>readGameDataServlet</servlet-name>
+		<url-pattern>/read</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>gameDeleteServlet</servlet-name>
+		<servlet-class>games.gameDeleteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>gameDeleteServlet</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>gameDataUpdateServlet</servlet-name>
+		<servlet-class>games.gameDataUpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>gameDataUpdateServlet</servlet-name>
+		<url-pattern>/up</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>gamePageServlet</servlet-name>
+		<servlet-class>games.gamePageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>gamePageServlet</servlet-name>
+		<url-pattern>/gameLoad</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	
+	 <servlet>
+		<servlet-name>cvUploadpageServlet</servlet-name>
+		<servlet-class>HRManager.cvUploadpageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cvUploadpageServlet</servlet-name>
+		<url-pattern>/insertcvData</url-pattern>
+	</servlet-mapping>
+	
+	    <servlet>
+		<servlet-name>readHRmanagerServlet</servlet-name>
+		<servlet-class>HRManager.readHRmanagerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>readHRmanagerServlet</servlet-name>
+		<url-pattern>/HRMread</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deleteHRmanagerServlet</servlet-name>
+		<servlet-class>HRManager.deleteHRmanagerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteHRmanagerServlet</servlet-name>
+		<url-pattern>/deletecvData</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>updateHRManagerServlet</servlet-name>
+		<servlet-class>HRManager.updateHRManagerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateHRManagerServlet</servlet-name>
+		<url-pattern>/updatecvData</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	<servlet>
+	  <servlet-name>ContactServlet</servlet-name>
+		<servlet-class>Support.ContactServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ContactServlet</servlet-name>
+		<url-pattern>/create</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ReadContactServlet</servlet-name>
+		<servlet-class>Support.ReadContactServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ReadContactServlet</servlet-name>
+		<url-pattern>/Contactread</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteContactServlet</servlet-name>
+		<servlet-class>Support.DeleteContactServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteContactServlet</servlet-name>
+		<url-pattern>/deleteContact</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>customerInsert</servlet-name>
+		<servlet-class>customer.customerInsert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customerInsert</servlet-name>
+		<url-pattern>/insertcus</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>UpdateContactServlet</servlet-name>
+		<servlet-class>Support.UpdateContactServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateContactServlet</servlet-name>
+		<url-pattern>/updateContact</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>customer.LoginServelet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/log</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CustomerUpdate</servlet-name>
+		<servlet-class>customer.updateCustermerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CustomerUpdate</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>deleteCustomer</servlet-name>
+		<servlet-class>customer.deleteCustermerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteCustomer</servlet-name>
+		<url-pattern>/deletecus</url-pattern>
+	</servlet-mapping>
+
+	
+	
+	
+</web-app>

@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+body{
+    background-image: url("./img/img1.jpg");
+}
+h3{
+    color: red;
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 20px;
+    margin-bottom: 1in;
+    padding-bottom: 0.5in;
+    font-weight: bolder;
+    
+}
+label{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+.col-md-6{
+    background-color: rgb(91, 3, 89);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: black 2px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    opacity: 0.85;
+}
+input{
+    text-align: center;
+}
+#div1{
+    padding-bottom: 200px;
+}

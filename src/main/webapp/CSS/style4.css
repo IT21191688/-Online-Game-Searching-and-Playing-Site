@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+#myInput {
+    background-image: url("./img/se.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 50%;
+    font-size: 16px;
+    padding: 12px 20px 12px 60px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    background-size: 3% 50%;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+  }
+  #ser{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    
+  }

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../siteImages/createBack.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+.createForm{
+    background-color: rgb(134, 133, 129);
+    opacity: 0.84;
+}
+.createForm input{
+    background-image: linear-gradient(to right, pink, lightgreen);
+}

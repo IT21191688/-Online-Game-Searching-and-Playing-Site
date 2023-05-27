@@ -1,0 +1,86 @@
+@charset "UTF-8";
+body{
+    background-image: url(../siteImages/AdminBack.jpg);
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+
+}
+.updateBtn{
+
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(24, 245, 4);
+    width: 80px;
+    height: auto;
+}
+.updateBtn a{
+    text-decoration: none;
+    color:black;
+
+}
+.updateBtn:hover{
+    color: rgb(234, 8, 234);
+    background-color: rgb(10, 45, 224);
+    transition: 2s;
+    
+}
+.deleteBtn{
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(243, 7, 3);
+    width: 80px;
+
+}
+.deleteBtn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 12, 233);
+    transition: 2s;
+
+}
+.administratorH{
+    margin-top: 5px;
+    color: rgb(182, 75, 173);
+    font-weight: 700;
+    
+}
+#myTable{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    color: white;
+    background-color: rgb(140, 153, 215);
+    border-radius: 5px;
+    opacity: 0.77;
+    margin-top: 5px;
+}
+.dis{
+    width: 300px;
+}
+.AddButton{
+    height: auto;
+    width: 120px;
+    border-radius: 5px;
+}
+.AddButton a{
+    text-decoration: none;
+    color:rgb(253, 253, 253);
+}
+.AddButton:hover{
+	color:brown;
+	background-color:black;
+	transition: 2s;
+}
+.formBtn{
+    width: 150px;
+    height: auto;
+}
+#ser input{
+    width: 400px;
+    background-color: rgb(204, 199, 192);
+   
+}
+
+
+
+

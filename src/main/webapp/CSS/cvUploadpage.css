@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+body {
+    background-image: url(../siteImages/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    max-width: 100%;
+
+
+}
+
+.form {
+    background-color: rgb(55, 16, 92);
+    color: white;
+    border-radius: 10%;
+    box-sizing: content-box;
+    width: 700px;
+    height: 500px;
+    margin: 5em auto;
+    padding: 0px 30px 30px 30px;
+    margin-bottom: 70px;
+    opacity: 0.8;
+}
+
+.h7 {
+    color: yellow;
+
+}

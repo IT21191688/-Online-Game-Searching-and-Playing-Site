@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+ 
+body {
+    background-image: url(../image/pokeball.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    max-width: 100%;
+
+
+}
+
+.headline{
+    color: blue;
+    text-align: center;
+}
+.insertForm {
+  background: #fff;
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  border-radius: 5px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  border-top: 5px solid #0e3721;
+/*   z-index: 1; */
+  animation: bounce 1.5s infinite;
+}
+
+.Name {
+  background-color: #ebebeb;
+  color: white;
+}
+.Name:hover {
+  border-bottom: 5px solid #0e3721;
+  height: 30px;
+  width: 380px;
+  transition: ease 0.5s;
+}
+
+.submitBtn{
+    color: black;
+    background-color:blueviolet;
+    cursor: pointer;
+    transition: 2s;
+}
+.submitBtn:hover{
+    background-color: brown;
+    color: beige;
+    
+}
+
+
+

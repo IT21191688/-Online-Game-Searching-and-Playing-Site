@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+body {
+    background-image: url(../siteImages/formImage.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    max-width: 100%;
+
+
+}
+
+.formUpdate {
+    background-color: #cecece;
+    opacity: 0.8;
+}
